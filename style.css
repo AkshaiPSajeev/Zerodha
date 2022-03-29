@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    font-family: "Inter", serif;
+    font-size: 16px;
+}
+
+.dummy{
+    height:80px;
+}
+.zerodha-logo{
+    height:17px;
+    width: 130px;
+}
+.zerodha-logo img{
+   
+    max-width: 100%;
+    height: auto;
+}
+.numberone{
+
+    height: 265px;
+    width: 395px;
+}
+.numberone img{
+
+  max-width: 100%;
+  height: auto;
+}
+#navbarText a:hover{
+    color:blue;
+}
+
+.signup-btn{
+    background-color: #0275d8;
+    width: 152px;
+    font-size: larger;
+}
+.signup-btn:hover{
+    background-color:black;
+    border: none;
+  
+}
+
+/*.trophy{
+    height: 200px;
+}
+.trophy img{
+    max-width: 100%;
+    height: auto;
+}*/
+.products{
+    display: flex;
+    
+}
+
+.products li,.para{
+
+    font-size: 13pt;
+}
+.products ul{
+    line-height: 35px;
+}
+
+.nolink{
+    text-decoration:none;
+}
+.nolink:hover{
+    color: #666;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    .products {
+      display: block;
+    }
+    .largest-stoke-broker{
+        margin-top: 20px;
+    }
+  }
+.section2 .container{
+    
+}
+
+.pricebox{
+    display: flex;
+}
+.pricebox .box{
+    border: 1px solid black;
+}
+/*footer .container .top{
+    display: flex;
+}*/
+
+.logo-footer{
+    height:17px;
+    width: 130px;
+}
+
+.logo-footer img{
+   
+    max-width: 100%;
+    height: auto;
+}
+
+.footer-list a{
+    text-decoration: none;
+    color: #666;
+}
+.footer-list a:hover{
+    text-decoration: none;
+    color:blue;
+    
+}
+.footer-list ul{
+
+    list-style: none;
+    margin-left: 0;
+}
+.middle p{
+    font-size: 12px;
+    line-height: 1.8;
+    color: #666;
+    
+}
+.middle p a {
+    text-decoration: none;
+}
+.middle p a:hover {
+    color: #666;
+}
+
+.bottom-links a{
+    text-decoration: none;
+    color: #666;
+}
+.bottom-links a:hover{
+ 
+    color:blue;
+}
